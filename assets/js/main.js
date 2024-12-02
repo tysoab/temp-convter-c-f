@@ -74,7 +74,7 @@ converterForm.addEventListener("submit", (event) => {
     case opt === "kf":
       calc = {
         temp: (temp - 273.15) * (9 / 5) + 32,
-        unit: "<sup>o</sup>Fs",
+        unit: "<sup>o</sup>F",
       };
       break;
   }
